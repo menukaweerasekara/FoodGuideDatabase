@@ -9,6 +9,7 @@
         public DateTime HireDate { get; set; }
         public string Address { get; set; }
         public int ReportsToID { get; set; }
+        public int RestaurantID { get; set; }
         public Restaurant Restaurants { get; set; }
         public Employee ReportsTo { get; set; }
     }
