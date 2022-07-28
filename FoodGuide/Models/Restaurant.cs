@@ -7,6 +7,7 @@
         public string RestaurantName { get; set; }
         public DateTime DateOfRegistration { get; set; }
         public string RestaurantRating { get; set; }
+        public int LocationID { get; set; }
         public Location Location { get; set; }
         public ICollection<Employee> Employees { get; set; }
         public ICollection<Food> Foods { get; set; }
